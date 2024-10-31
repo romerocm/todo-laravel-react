@@ -1,0 +1,66 @@
+# Root level
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules
+vendor
+
+# Build directories
+dist
+build
+/public/build
+/public/hot
+
+# Laravel specific
+/backend/.env
+/backend/.env.*
+/backend/node_modules
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/vendor
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
+
+# React/Vite specific
+/frontend/.env
+/frontend/.env.*
+/frontend/dist
+/frontend/dist-ssr
+/frontend/*.local
+/frontend/node_modules
+/frontend/logs
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# Docker volumes
+/mysql/data/*
+!/mysql/data/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+*.bak
